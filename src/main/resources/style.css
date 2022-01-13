@@ -1,0 +1,25 @@
+.progress-bar {
+    -fx-accent: rgba(0, 53, 93, 0.85);
+}
+
+.progress-bar .bar {
+    -fx-padding: 2px;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.progress-bar > .track {
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-text-box-border: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-background-color: rgba(238, 238, 238, 0.6);
+}
+
+.steppe-cell {
+    -fx-background-color: rgb(251, 227, 153);
+}
+
+.jungle-cell {
+    -fx-background-color: rgb(125, 195, 131);
+}
